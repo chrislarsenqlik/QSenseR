@@ -45,3 +45,5 @@ How to install/run the implementation:
   c.	For best practice with debugging, access the application/hub using the web browser with http://localhost:4848/hub
   
   d.	Optional – drop the example “nvtcodetest.qvf” Qlik Sense app into <home directory>\Qlik\Sense\Apps
+
+![Qlik Sense R Middleware](https://raw.githubusercontent.com/chrislarsenqlik/QSenseR/master/SenseR_Diagram.png)
