@@ -1,0 +1,50 @@
+.qv-object-qlikR div.qv-object-content-container {
+	overflow: auto;
+}
+/*.qv-object-writeback td, th {
+	border-top: 0px solid #fff;
+	border-bottom: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	vertical-align: middle;
+	cursor: default;
+	font-size: 12px;
+}*/
+/*.qv-object-writeback td.numeric {
+//	text-align: right;
+}
+*/
+.qv-object-qlikR .fixed-table .header-fixed {
+  position: absolute;
+  top: 0px;
+  z-index: 1020; /* 10 less than .navbar-fixed to prevent any overlap */
+  border-bottom: 2px solid #d5d5d5;
+  -webkit-border-radius: 0;
+     -moz-border-radius: 0;
+          border-radius: 0;
+}
+.qv-object-qlikR .fixed-table{
+  display:block;
+  position:relative;
+}
+.qv-object-qlikR .fixed-table th{
+  padding: 8px;
+  line-height: 18px;
+  text-align: left;
+}
+.qv-object-qlikR .fixed-table .table-content{
+  display:block;
+  position: relative;
+  height: 500px; /*FIX THE HEIGHT YOU NEED*/
+  overflow-y: auto;
+}
+.qv-object-qlikR .fixed-table .header-copy{
+  position:absolute;
+  top:0;
+  left:0;
+}
+.qv-object-qlikR .fixed-table .header-copy th{
+  background-color:#fff;
+}

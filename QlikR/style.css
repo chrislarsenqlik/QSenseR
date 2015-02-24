@@ -1,0 +1,91 @@
+﻿.qv-object-${name} div.qv-object-content-container {
+	overflow: none;
+}
+/*.qv-object-${name} ul {
+	list-style: none;
+}*/
+.qv-object-${name} div.portlet {
+	padding: 4px;
+	margin: 4px;
+	-moz-border-radius: 5px;
+    border-radius: 5px;
+    /*width: 25px;*/
+    font-size: .8em;
+    display:inline-block;
+/*	border-bottom: 1px solid #ddd;*/
+/*	white-space: nowrap;*/
+/*	overflow: hidden;
+	text-overflow: ellipsis;*/
+	list-style-position:inside;
+    /*border: 1px solid black;*/
+    background-color: #DFFAC8;
+}
+
+.qv-object-${name}  .portlet {
+    margin: 0 1em 1em 0;
+    padding: 0.3em;
+  }
+.qv-object-${name}  .portlet-header {
+    padding: 0.2em 0.3em;
+    /*margin-bottom: 0.5em;*/
+    position: relative;
+  }
+.qv-object-${name}  .portlet-toggle {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    margin-top: -8px;
+  }
+.qv-object-${name}  .portlet-content {
+    padding: 0.4em;
+  }
+.qv-object-${name}  div.portlet-placeholder {
+    border: 1px dotted black;
+    margin: 0 1em 1em 0;
+    height: 50px;
+    visibility: visible;
+  }
+
+/* frequency */
+/*.qv-object-${name} div.data span
+{
+	padding-left: 10px;
+	font-style: italic;
+	float:right;
+}*/
+/* colors when NOT in selection mode */
+
+.qv-object-${name} div.stateS, .qv-object-${name} div.stateL {
+	background-image: linear-gradient(top, #52cc52, #4dc04d);
+	background-image: -o-linear-gradient(top, #52cc52, #4dc04d);
+	background-image: -moz-linear-gradient(top, #52cc52, #4dc04d);
+	background-image: -webkit-linear-gradient(top, #52cc52, #4dc04d);
+	background-image: -ms-linear-gradient(top, #52cc52, #4dc04d);
+	color: #fff;
+}
+
+.qv-object-${name} div.stateX, .qv-object-com-qliktech-${name} div.stateXL, .qv-object-com-qliktech-${name} div.stateXS {
+	background-color: #A9A9A9;
+	color: #fff;
+}
+
+.qv-object-${name} div.stateA {
+	background-image: none;
+	background-color: #ddd;
+	color: #000;
+}
+/* colors when in selection mode */
+/*.qv-object-${name}.qv-selections-active div {
+	background-image: none;
+	background-color: #ddd;
+	color: #000;
+}*/
+
+.qv-object-${name}.qv-selections-active div.portlet.selected {
+	background-image: linear-gradient(top, #52cc52, #4dc04d);
+	background-image: -o-linear-gradient(top, #52cc52, #4dc04d);
+	background-image: -moz-linear-gradient(top, #52cc52, #4dc04d);
+	background-image: -webkit-linear-gradient(top, #52cc52, #4dc04d);
+	background-image: -ms-linear-gradient(top, #52cc52, #4dc04d);
+	color: #fff;
+}
